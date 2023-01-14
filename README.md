@@ -1,4 +1,4 @@
-# Mern-Stack-Developement
+# Mern-Stack-Development
 
 
 WEEK 1: HTML Basics
