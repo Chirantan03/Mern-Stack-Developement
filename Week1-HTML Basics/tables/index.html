@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Page</title>
+    <style>
+        #table1,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .yellow{
+            background-color: rgb(225, 231, 144);
+        }
+        .green{
+            background-color: rgb(120, 235, 67);
+        }
+        .purple{
+            background-color: rgb(199, 80, 199);
+        }
+
+        #table2{
+            text-align: center ;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <table id="table1">
+        <tr>
+            <th colspan="6"> TIME TABLE </th>
+        </tr>
+        <tr>
+            <th rowspan="6"> HOURS </th>
+            <th> Mon </th>
+            <th> Tue </th>
+            <th> Wed </th>
+            <th> Thu </th>
+            <th> Fri </th> 
+        </tr>
+        <tr>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Arts </td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+            
+        </tr>
+        <tr>
+            <th colspan="5" style="background-color: green;">Lunch</th>
+        </tr>
+        <tr>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Science </td>
+            <td> Maths </td>
+            <td rowspan="2"> Project </td>
+            
+        </tr>
+        <tr>
+            <td> Social </td>
+            <td> History </td>
+            <td> English </td>
+            <td> Social </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <!-- Another Table -->
+    <br>
+    <br>
+    <table id="table2">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="5"> Seminar </th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2"> Topic </th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" class="yellow">8:00 a.m.</td>
+            <td rowspan="2" class="purple">5:00 a.m.</td>
+            <td>Introduction to XML</td>
+            
+        </tr>
+        <tr> 
+            <td>Validiy: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td class="yellow">8:00 a.m.</td>
+            <td class="yellow">11:00 a.m.</td>
+            <td rowspan="2">XPath</td>
+            
+        </tr>
+        <tr>
+            <td class="yellow">11:00 a.m.</td>
+            <td class="green">2:00 p.m.</td> 
+        </tr>
+        <tr>
+            <td class="green">2:00 p.m.</td>
+            <td class="purple">5:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td class="yellow">8:00 a.m. </td>
+            <td class="green">12:00 p.m.</td>
+            <td>XSL Formattiing Objects</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+</body>
+</html>
