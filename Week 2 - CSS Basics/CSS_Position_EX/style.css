@@ -1,0 +1,48 @@
+.text{
+    display: inline-block;
+}
+.container{
+    position: relative;
+}
+
+img { 
+   height: auto;
+   width: 80%;
+    opacity: 0.6;
+  }
+
+#tleft{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px; 
+}
+
+#tright{
+    position: absolute;
+    top: 8px;
+    right: 285px;
+    font-size: 18px;
+}
+
+#center{
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    font-size: 18px;
+}
+
+#bleft{
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    font-size: 18px;
+    
+}
+
+#bright{
+    position: absolute;
+    bottom: 15px;
+    right: 285px;
+    font-size: 18px;
+}
